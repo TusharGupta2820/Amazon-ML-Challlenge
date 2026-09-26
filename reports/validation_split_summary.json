@@ -1,0 +1,37 @@
+{
+  "seed": 42,
+  "train_stats": {
+    "total_entities": 1765459,
+    "cardinality_dist": {
+      "0": 98598,
+      "1": 95326,
+      "2": 300170,
+      "3": 424673,
+      "4+": 846692
+    },
+    "s2_links": 2955351,
+    "s3_links": 3155061,
+    "total_links": 6110412,
+    "s1_only_s2": 114424,
+    "s1_only_s3": 131557,
+    "s1_both": 1420880,
+    "s1_neither": 98598
+  },
+  "val_stats": {
+    "total_entities": 441362,
+    "cardinality_dist": {
+      "0": 24649,
+      "1": 23831,
+      "2": 75042,
+      "3": 106168,
+      "4+": 211672
+    },
+    "s2_links": 738268,
+    "s3_links": 789685,
+    "total_links": 1527953,
+    "s1_only_s2": 28605,
+    "s1_only_s3": 32941,
+    "s1_both": 355167,
+    "s1_neither": 24649
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "chunk_size": 250000,
+  "feature_groups": {
+    "name": true,
+    "address": true,
+    "interaction": true,
+    "country": true,
+    "frequency": true,
+    "blocking": true,
+    "source": true,
+    "contradiction": true,
+    "missingness": true
+  },
+  "thresholds": {
+    "high_name_similarity": 0.80,
+    "low_name_similarity": 0.35,
+    "high_address_similarity": 0.75,
+    "low_address_similarity": 0.30,
+    "strong_name_threshold": 0.85,
+    "strong_address_threshold": 0.80,
+    "contradiction_min_score": 1.0
+  },
+  "tfidf": {
+    "ngram_range": [3, 5],
+    "max_features": 10000,
+    "min_df": 5,
+    "analyzer": "char_wb"
+  },
+  "output_dir": "artifacts/features",
+  "random_seed": 42
+}

@@ -1,0 +1,18 @@
+{
+  "target_negative_ratio": 4.0,
+  "max_negatives_per_s1": 25,
+  "min_negatives_per_s1": 2,
+  "random_seed": 42,
+  "hard_negative_priorities": [
+    "high_name_and_address_similarity",
+    "name_conflict",
+    "address_conflict",
+    "high_name_similarity",
+    "high_address_similarity",
+    "easy_negative"
+  ],
+  "train_pairs_output": "artifacts/training_pairs/train_pairs.parquet",
+  "validation_pairs_output": "artifacts/training_pairs/validation_pairs.parquet",
+  "report_output": "reports/06_training_pairs.md",
+  "summary_json_output": "reports/training_pairs_summary.json"
+}

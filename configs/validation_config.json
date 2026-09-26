@@ -1,0 +1,8 @@
+{
+  "seed": 42,
+  "train_fraction": 0.80,
+  "validation_fraction": 0.20,
+  "group_column": "source1_entity_id",
+  "metric": "macro_f0.5",
+  "cardinality_buckets": ["0", "1", "2", "3", "4+"]
+}

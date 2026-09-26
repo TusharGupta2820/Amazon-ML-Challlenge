@@ -1,0 +1,33 @@
+{
+  "unicode_normalization_form": "NFKD",
+  "legal_suffixes": [
+    "inc", "incorporated", "corp", "corporation", "llc", "ltd", "limited", 
+    "pvt", "pvt ltd", "private limited", "co", "company", "gmbh", "sa", 
+    "sarl", "bv", "plc", "nv", "holding", "holdings", "group"
+  ],
+  "address_abbreviations": {
+    "st": "street",
+    "rd": "road",
+    "ave": "avenue",
+    "dr": "drive",
+    "blvd": "boulevard",
+    "ste": "suite",
+    "apt": "apartment",
+    "pkwy": "parkway",
+    "ln": "lane",
+    "ct": "court",
+    "pl": "place",
+    "hwy": "highway",
+    "expwy": "expressway",
+    "sq": "square",
+    "bldg": "building",
+    "fl": "floor"
+  },
+  "postal_code_regex": {
+    "US": "\\b\\d{5}(?:-\\d{4})?\\b",
+    "India": "\\b\\d{6}\\b",
+    "France": "\\b\\d{5}\\b",
+    "generic": "\\b\\d{5,6}\\b"
+  },
+  "house_number_regex": "^\\s*(\\d+[-/a-zA-Z0-9]*)"
+}

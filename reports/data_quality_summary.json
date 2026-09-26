@@ -1,0 +1,220 @@
+{
+  "analyzed_positive_pairs": 2000,
+  "exact_name_pct": 4.45,
+  "exact_norm_name_pct": 21.45,
+  "suffix_stripped_name_pct": 36.5,
+  "mean_name_jaccard": 0.6045409854034848,
+  "mean_name_levenshtein": 0.7212696344841946,
+  "exact_addr_pct": 2.4,
+  "exact_norm_addr_pct": 9.45,
+  "missing_one_addr_pct": 4.6,
+  "country_agreement_pct": 100.0,
+  "name_noise_distribution": {
+    "punctuation_or_whitespace": 215,
+    "word_order_transposition": 88,
+    "capitalization_only": 125,
+    "significant_abbreviation_or_trade_name": 676,
+    "minor_typo_or_spelling": 317,
+    "unicode_or_transliteration": 189,
+    "legal_suffix_difference": 301
+  },
+  "address_noise_distribution": {
+    "component_reordering_or_landmark": 992,
+    "minor_abbrev_or_formatting": 563,
+    "substantially_different_address": 164,
+    "exact_normalized_address": 189,
+    "missing_address_one_or_both": 92
+  },
+  "hard_negatives_sampled": 600,
+  "top_duplicate_names_sample": [
+    {
+      "name": "urgent care",
+      "total_entities": 56,
+      "unique_addresses": 56,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "physical therapy",
+      "total_entities": 49,
+      "unique_addresses": 49,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "meridian llc",
+      "total_entities": 47,
+      "unique_addresses": 47,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "primary care",
+      "total_entities": 46,
+      "unique_addresses": 46,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "behavioral health",
+      "total_entities": 45,
+      "unique_addresses": 45,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "pediatric dental",
+      "total_entities": 43,
+      "unique_addresses": 43,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "womens health",
+      "total_entities": 43,
+      "unique_addresses": 42,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "eye group",
+      "total_entities": 40,
+      "unique_addresses": 40,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "primary care group",
+      "total_entities": 38,
+      "unique_addresses": 38,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "name": "pediatric group",
+      "total_entities": 37,
+      "unique_addresses": 37,
+      "countries": [
+        "US"
+      ]
+    }
+  ],
+  "top_duplicate_addrs_sample": [
+    {
+      "address": "9215 seven hills curve mobile al",
+      "total_entities": 5,
+      "unique_names": 5,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "648 kha mi fattekhera opposite kankaha chowki kankaha mohanl alganj lucknow uttar pradesh",
+      "total_entities": 5,
+      "unique_names": 5,
+      "countries": [
+        "India"
+      ]
+    },
+    {
+      "address": "1292 mason lake road berea ky",
+      "total_entities": 5,
+      "unique_names": 5,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "2022 bertona street seattle wa",
+      "total_entities": 5,
+      "unique_names": 5,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "124 walcott avenue staten island ny",
+      "total_entities": 4,
+      "unique_names": 4,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "9224 knoll crest loop austin tx",
+      "total_entities": 4,
+      "unique_names": 4,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "200 39th street kansas city mo",
+      "total_entities": 4,
+      "unique_names": 4,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "1 franklin street unit 4706 boston ma",
+      "total_entities": 4,
+      "unique_names": 4,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "1103 regency court chattanooga tn",
+      "total_entities": 4,
+      "unique_names": 4,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "address": "polt no 261 262 hsiidc refinery road panipat haryana",
+      "total_entities": 4,
+      "unique_names": 4,
+      "countries": [
+        "India"
+      ]
+    }
+  ],
+  "cardinality_findings": {
+    "0_matches": {
+      "sample_size": 500,
+      "address_presence_pct": 100.0,
+      "avg_name_length": 23.852
+    },
+    "1_matches": {
+      "sample_size": 500,
+      "address_presence_pct": 100.0,
+      "avg_name_length": 24.362
+    },
+    "2_matches": {
+      "sample_size": 500,
+      "address_presence_pct": 100.0,
+      "avg_name_length": 24.44
+    },
+    "3_matches": {
+      "sample_size": 500,
+      "address_presence_pct": 100.0,
+      "avg_name_length": 24.432
+    },
+    "4_matches": {
+      "sample_size": 500,
+      "address_presence_pct": 100.0,
+      "avg_name_length": 24.516
+    }
+  }
+}

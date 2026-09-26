@@ -1,0 +1,320 @@
+{
+  "index_build_time_sec": 616.535863161087,
+  "results_by_config": {
+    "Strategy_A_SuffixlessName": {
+      "config_name": "Strategy_A_SuffixlessName",
+      "runtime_sec": 85.60710644721985,
+      "total_cand_pairs": 7469863,
+      "candidate_link_recall_pct": 37.45422797690767,
+      "entity_coverage_pct": 8.38226789181043,
+      "s2_link_recall_pct": 38.01004513266185,
+      "s3_link_recall_pct": 36.93460050526476,
+      "reduction_ratio": 0.9999983600568825,
+      "mean_candidates_per_s1": 16.924572119937828,
+      "median_candidates_per_s1": 3.0,
+      "p90_candidates": 57.0,
+      "p95_candidates": 100.0,
+      "p99_candidates": 100.0,
+      "max_candidates": 100,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 15.647085074445211,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 37.75754269648777,
+          "entity_coverage": 37.75754269648777
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 37.45236001172677,
+          "entity_coverage": 16.54273606780203
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 37.42025217893653,
+          "entity_coverage": 7.693466958028784
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 37.4579685456972,
+          "entity_coverage": 2.5274953701953966
+        }
+      }
+    },
+    "Strategy_B_RareToken": {
+      "config_name": "Strategy_B_RareToken",
+      "runtime_sec": 62.15294814109802,
+      "total_cand_pairs": 35414383,
+      "candidate_link_recall_pct": 29.636121006339856,
+      "entity_coverage_pct": 16.551919426559767,
+      "s2_link_recall_pct": 30.05182399887304,
+      "s3_link_recall_pct": 29.247484756580157,
+      "reduction_ratio": 0.9999922250818174,
+      "mean_candidates_per_s1": 80.23885835210099,
+      "median_candidates_per_s1": 100.0,
+      "p90_candidates": 200.0,
+      "p95_candidates": 200.0,
+      "p99_candidates": 200.0,
+      "max_candidates": 200,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 80.47239238914358,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 29.772145524736686,
+          "entity_coverage": 29.772145524736686
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 29.874603555342343,
+          "entity_coverage": 21.761147090962393
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 29.69758621555773,
+          "entity_coverage": 17.492088011453546
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 29.579521290464626,
+          "entity_coverage": 12.745190672361012
+        }
+      }
+    },
+    "Strategy_C_AddressPostcode": {
+      "config_name": "Strategy_C_AddressPostcode",
+      "runtime_sec": 34.02963590621948,
+      "total_cand_pairs": 2411867,
+      "candidate_link_recall_pct": 29.678007111475285,
+      "entity_coverage_pct": 10.367087179905594,
+      "s2_link_recall_pct": 29.37700130575888,
+      "s3_link_recall_pct": 29.959414196799987,
+      "reduction_ratio": 0.9999994704956855,
+      "mean_candidates_per_s1": 5.464600486675336,
+      "median_candidates_per_s1": 1.0,
+      "p90_candidates": 12.0,
+      "p95_candidates": 31.0,
+      "p99_candidates": 92.0,
+      "max_candidates": 143,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 4.387683070307112,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 29.411271033527758,
+          "entity_coverage": 29.411271033527758
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 29.41552730470936,
+          "entity_coverage": 16.344180592201702
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 29.69978399015397,
+          "entity_coverage": 10.802690076105796
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 29.715489785946186,
+          "entity_coverage": 5.885520994746589
+        }
+      }
+    },
+    "Strategy_D_CharNGram": {
+      "config_name": "Strategy_D_CharNGram",
+      "runtime_sec": 128.9929759502411,
+      "total_cand_pairs": 2964499,
+      "candidate_link_recall_pct": 4.306022502001043,
+      "entity_coverage_pct": 2.4249303477453306,
+      "s2_link_recall_pct": 4.372125027767694,
+      "s3_link_recall_pct": 4.244223962719312,
+      "reduction_ratio": 0.9999993491701612,
+      "mean_candidates_per_s1": 6.71670646770678,
+      "median_candidates_per_s1": 0.0,
+      "p90_candidates": 40.0,
+      "p95_candidates": 40.0,
+      "p99_candidates": 40.0,
+      "max_candidates": 40,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 6.6478153271938005,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 4.44798791490076,
+          "entity_coverage": 4.44798791490076
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 4.308920337944085,
+          "entity_coverage": 3.0129793982036723
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 4.377653027905458,
+          "entity_coverage": 2.5280687212719464
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 4.280303688724851,
+          "entity_coverage": 1.936959068747874
+        }
+      }
+    },
+    "Ablation_A_plus_B": {
+      "config_name": "Ablation_A_plus_B",
+      "runtime_sec": 15.114407539367676,
+      "total_cand_pairs": 42260070,
+      "candidate_link_recall_pct": 53.08514070786209,
+      "entity_coverage_pct": 24.393767413063667,
+      "s2_link_recall_pct": 53.45985468691586,
+      "s3_link_recall_pct": 52.73482464526995,
+      "reduction_ratio": 0.9999907221710839,
+      "mean_candidates_per_s1": 95.74922625871733,
+      "median_candidates_per_s1": 100.0,
+      "p90_candidates": 200.0,
+      "p95_candidates": 202.0,
+      "p99_candidates": 206.0,
+      "max_candidates": 296,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 95.10260051117693,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 52.98141076748772,
+          "entity_coverage": 52.98141076748772
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 53.06894805575544,
+          "entity_coverage": 35.11500226539804
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 53.02162610202698,
+          "entity_coverage": 25.61223720895185
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 53.109410217337135,
+          "entity_coverage": 16.763199667409957
+        }
+      }
+    },
+    "Ablation_A_plus_B_plus_C": {
+      "config_name": "Ablation_A_plus_B_plus_C",
+      "runtime_sec": 15.656412839889526,
+      "total_cand_pairs": 44420261,
+      "candidate_link_recall_pct": 66.36316692987285,
+      "entity_coverage_pct": 39.10197186072909,
+      "s2_link_recall_pct": 66.052029886166,
+      "s3_link_recall_pct": 66.65404560046095,
+      "reduction_ratio": 0.999990247920035,
+      "mean_candidates_per_s1": 100.64360094434953,
+      "median_candidates_per_s1": 102.0,
+      "p90_candidates": 202.0,
+      "p95_candidates": 205.0,
+      "p99_candidates": 243.0,
+      "max_candidates": 395,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 99.48573978660392,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 65.57005580965969,
+          "entity_coverage": 65.57005580965969
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 66.16228245515845,
+          "entity_coverage": 50.68095200021321
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 66.30026624469394,
+          "entity_coverage": 41.348617285811166
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 66.42988062197861,
+          "entity_coverage": 30.89024528515817
+        }
+      }
+    },
+    "FULL_UNION_A_B_C_D": {
+      "config_name": "FULL_UNION_A_B_C_D",
+      "runtime_sec": 70.92406010627747,
+      "total_cand_pairs": 46385214,
+      "candidate_link_recall_pct": 66.61651241890294,
+      "entity_coverage_pct": 39.65367051183908,
+      "s2_link_recall_pct": 66.3125044021954,
+      "s3_link_recall_pct": 66.90072623894338,
+      "reduction_ratio": 0.9999898165317822,
+      "mean_candidates_per_s1": 105.09562218768268,
+      "median_candidates_per_s1": 102.0,
+      "p90_candidates": 203.0,
+      "p95_candidates": 219.0,
+      "p99_candidates": 251.0,
+      "max_candidates": 395,
+      "zero_match_s1_count": 24649,
+      "zero_match_avg_candidates": 103.95955211164753,
+      "cardinality_breakdown": {
+        "0": {
+          "s1_count": 24649,
+          "candidate_recall": 100.0,
+          "entity_coverage": 100.0
+        },
+        "1": {
+          "s1_count": 23831,
+          "candidate_recall": 65.83861357055936,
+          "entity_coverage": 65.83861357055936
+        },
+        "2": {
+          "s1_count": 75042,
+          "candidate_recall": 66.43146504624077,
+          "entity_coverage": 51.15268782814957
+        },
+        "3": {
+          "s1_count": 106168,
+          "candidate_recall": 66.5542661944591,
+          "entity_coverage": 41.87137367191621
+        },
+        "4+": {
+          "s1_count": 211672,
+          "candidate_recall": 66.68037939845529,
+          "entity_coverage": 31.5166861937337
+        }
+      }
+    }
+  }
+}
