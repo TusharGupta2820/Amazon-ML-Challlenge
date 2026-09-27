@@ -1,8 +1,8 @@
 # ML Challenge 2026: Business Entity Resolution Solution Template
 
-**Team Name:** [Your Team Name]  
-**Team Members:** [List all team members]  
-**Submission Date:** [Date]
+**Team Name:** Forbidden
+**Team Members:** Bhumeshwari Bisen, Tushar Gupta, Roodraksh Bisen, Geetanjali Varma
+**Submission Date:** 27/09/2026
 
 ---
 
