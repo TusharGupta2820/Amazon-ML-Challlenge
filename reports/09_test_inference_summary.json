@@ -1,0 +1,18 @@
+{
+  "test_s1_count": 1732544,
+  "test_s2_count": 4887273,
+  "test_s3_count": 5082316,
+  "candidate_pair_count": 179300587,
+  "predicted_link_count": 5045540,
+  "predicted_s2_links": 2390773,
+  "predicted_s3_links": 2654767,
+  "zero_match_s1_count": 290883,
+  "one_match_s1_count": 307789,
+  "multi_match_s1_count": 1133872,
+  "prediction_rate_pct": 83.2106428465886,
+  "mean_predictions_per_s1": 2.9122146392818884,
+  "threshold": 0.96,
+  "model": "XGBoost",
+  "official_validator_passed": false,
+  "total_runtime_sec": 20061.676830768585
+}
