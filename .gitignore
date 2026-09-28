@@ -1,3 +1,5 @@
-# empty gitignore
-src/output/candidate_pairs.tsv
-src/output/matching_results.tsv
+# Output directory ignore rules
+output/candidate_pairs.tsv
+output.zip
+artifacts/
+dataset/
